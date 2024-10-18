@@ -1,0 +1,36 @@
+<form name="formulario" id="formulario" method="get" autocomplete="off">
+    Email: <input type="email" name="mail" id="mail">
+    <input type="submit" value="Aceptar" ><br><br>
+    Edad;
+    <input type="number" name="edad"
+    id="edad" min="18" max="100">
+    <input type="submit"
+    value="Aceptar">br><br>
+    Buscar:
+    <input type="search" name="buscar"
+    id="buscar"><br><br>
+    URL:
+    <input type="url" name="URL"
+    id="URL"><br><br>
+    Otras etiquetas:
+    Edad:
+    Con placeholder añado un texto que le de pistas al
+    <input type="number" name="edad"
+    id="edad" min="0" max="100" step="5"
+    usuario sobre cómo rellenar un campo. Desaparecerá
+    placeholder="Introduce edad"><br><br>
+    cuando el usuario empiece a escribir.
+    Rango: <input type="range" min="0"
+    Con el atributo required definimos un campo como
+    max="100" step="5"><br><br>
+    Fecha: <input type="date"
+    obligatorio.
+    name="fecha" id="fecha"><br><br>
+    Con el atributo multiple podemos enviar más de un
+    Hora: <input type="time" name="hora"
+    id="hora" required><br><br>
+    Código postal: <input pattern="(0-
+    9){5}" placeholder="5 dígitos" br><br>
+    <input type="submit"
+    value="Enviar"><br><br>
+</form>

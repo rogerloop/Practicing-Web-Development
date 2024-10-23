@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Flexbox</title>
+    <style>
+        /* Estilos de Flexbox */
+        .contenedor {
+            display: flex;
+        
+            flex-wrap: wrap;
+            align-content: space-around;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh; /* Ocupa toda la altura del viewport */
+            background-color: #f0f0f0;
+            gap: 40px;
+           
+        }
+
+        .caja {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            font-size: 20px;
+            text-align: center;
+            border-radius: 8px;
+            width: 200px;
+            
+            
+        }
+
+        /* Puedes experimentar con estas propiedades */
+        .caja:nth-child(2) {
+            background-color: #2196F3;
+            align-self: center;
+            
+
+        }
+
+        .caja:nth-child(3) {
+            background-color: #FF5722;
+            align-self: flex-end;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="caja">Caja 1</div>
+        <div class="caja">Caja 2</div>
+        <div class="caja">Caja 3</div>
+        <div class="caja">Caja 4</div>
+        <div class="caja">Caja 5</div>
+        <div class="caja">Caja 6</div>
+    </div>
+</body>
+</html>

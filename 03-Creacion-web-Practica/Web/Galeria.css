@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+#titulo{
+    text-align: center;
+    font-size: 40px;
+    background-color:aqua;
+    background: linear-gradient(top, blue, rgb(124, 210,212));
+    background: -webkit-linear-gradient(top, blue, rgb(124, 210,212));
+
+    background: -o-linear-gradient(top, blue, rgb(124, 210,212));
+    width: 50%;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -ms-border-radius: 30px;
+    margin: 40px auto;
+    padding: 15px;
+    color: white;
+    box-shadow: grey 20px 20px 15px;
+    text-shadow: black 2px 2px 2px;
+}
+.imagen{
+    width: 200px;
+    height: 130px;
+    padding: 4px;
+    border: 2px solid black;
+    float: left;
+    margin: 100px 40px;
+    border-radius: 10px;
+    box-shadow: grey 20px 20px 15px;
+
+}
+.imagen:hover{
+	transform: scale(1.2);
+    transition: transform 0.5s ease-in-out 1ms;
+}

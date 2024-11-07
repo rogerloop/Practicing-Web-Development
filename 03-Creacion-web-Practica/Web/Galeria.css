@@ -1,5 +1,5 @@
 @charset "utf-8";
-/* CSS Document */
+/* CSS Document Mi primera web*/
 
 #titulo{
     text-align: center;
@@ -19,6 +19,7 @@
     box-shadow: grey 20px 20px 15px;
     text-shadow: black 2px 2px 2px;
 }
+
 .imagen{
     width: 200px;
     height: 130px;
